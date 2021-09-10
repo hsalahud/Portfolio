@@ -61,9 +61,12 @@ Global Styles
 */
 html {
   scroll-behavior: smooth;
-  background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
-    url(../images/explore.jpg) no-repeat center/cover fixed;
+  /* background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
+    url(../images/explore.jpg) no-repeat center/cover fixed; */
   overflow-x: hidden !important;
+
+  /* for safari on iphone */
+
 }
 *,
 ::after,
@@ -79,6 +82,12 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
   overflow-x: hidden !important;
+
+  background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
+  url(../images/explore.jpg) no-repeat fixed top center;
+  background-size: cover;
+  -webkit-background-size: cover;
+
 }
 ul {
   list-style-type: none;

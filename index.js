@@ -120,7 +120,7 @@ scrollLinks.forEach(link => {
     }
 
     // if (id === "about" && navHeight < 94){
-    //   position =  position - navHeight + navHeight;
+    //   position =  position - navHeight - navHeight;
     // }
 
     //handling container height for small screens

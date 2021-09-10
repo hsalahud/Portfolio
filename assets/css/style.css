@@ -66,8 +66,9 @@ html {
   overflow-x: hidden !important;
 
   /* for safari on iphone */
-  /* height: 100vh; */
+  height: 100vh;
   min-height: 100%; /* enforce height */
+  background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7));
 }
 *,
 ::after,

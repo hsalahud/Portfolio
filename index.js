@@ -176,7 +176,7 @@ const sliders = document.querySelectorAll(".slide-in");
 
 const appearOptions = {
   threshold: 0.10,
-  rootMargin: "0px 0px -250px 0px"
+  rootMargin: "0px 0px -50px 0px"
 };
 
 const appearOnScroll = new IntersectionObserver(function(

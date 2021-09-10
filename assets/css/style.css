@@ -976,7 +976,7 @@ Projects
   -o-object-fit: cover;
   object-fit: cover;
 }
-.project:hover .project-img, .prohect:active .project-img {
+.project:hover .project-img, .project:active .project-img {
   opacity: 0.1;
 }
 .project::before {

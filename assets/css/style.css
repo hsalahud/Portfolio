@@ -976,7 +976,7 @@ Projects
   -o-object-fit: cover;
   object-fit: cover;
 }
-.project:hover .project-img {
+.project:hover .project-img, .prohect:active .project-img {
   opacity: 0.1;
 }
 .project::before {
@@ -993,7 +993,7 @@ Projects
   opacity: 0;
   z-index: 0;
 }
-.project:hover::before {
+.project:hover::before, .project:active::before {
   opacity: 1;
   -webkit-transform: scale(0.8);
   transform: scale(0.8);

@@ -61,8 +61,8 @@ Global Styles
 */
 html {
   scroll-behavior: smooth;
-  /* background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
-    url(../images/explore.jpg) no-repeat center/cover fixed; */
+  background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
+    url(../images/explore.jpg) no-repeat center/cover fixed;
   overflow-x: hidden !important;
 
   /* for safari on iphone */
@@ -89,11 +89,11 @@ body {
   url(../images/explore.jpg) no-repeat fixed top center;
   background-size: cover;
   -webkit-background-size: cover; */
-  background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7));
+  /* background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)); */
 
 }
 
-body:before {
+/* body:before {
   content: "";
   display: block;
   position: fixed;
@@ -108,7 +108,7 @@ body:before {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+} */
 
 ul {
   list-style-type: none;

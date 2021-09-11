@@ -93,6 +93,7 @@ body {
   -webkit-background-size: cover; */
   /* background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)); */
 
+
 }
 
 body:before {
@@ -1044,6 +1045,10 @@ Projects
 @media screen and (min-width: 992px) {
   .projects-center {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .project {
+    margin-bottom: 0rem;
   }
 }
 @media screen and (min-width: 1170px) {
